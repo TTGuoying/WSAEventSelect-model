@@ -39,8 +39,8 @@ int main()
 	while (true)
 	{
 		char buff[128];
-		/*scanf_s("%s", &buff, 128);
-		*/
+		//scanf_s("%s", &buff, 128);
+		
 
 		sprintf_s(buff, 128, "µÚ%dÌõMsg", i++);
 		Sleep(500);
